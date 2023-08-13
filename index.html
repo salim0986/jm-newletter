@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>James NewsLetter</title>
+</head>
+<body class="mx-8 xl:mx-28 box-border">
+   <header class="">
+    <nav class="flex items-center justify-between w-full h-14 bg-white">
+        <!-- logo -->
+        <div>
+            <svg width="127" height="13" viewBox="0 0 127 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.50562 8.36817C5.50562 9.24372 5.07328 10.2166 3.60011 10.2166C2.43118 10.2166 1.72662 8.96808 1.72662 8.96808L0.317505 10.1679C0.317505 10.1679 1.35833 12.065 3.60011 12.065C5.96999 12.065 7.42715 10.6868 7.42715 8.30331L7.42715 0.520602L5.50562 0.520602C5.50562 0.520602 5.50562 4.62274 5.50562 8.36817Z" fill="#111111"></path>
+                <path d="M11.1178 11.8704H13.0554L14.0802 9.17887L18.8199 9.17887L19.8447 11.8704H21.7823L17.4268 0.520602L15.4733 0.520602L11.1178 11.8704ZM16.4501 2.96891L18.1314 7.39533H14.7687L16.4501 2.96891Z" fill="#111111"></path>
+                <path d="M25.461 0.520602L25.461 11.8704L27.3825 11.8704L27.3825 4.24982L30.8893 9.64907L34.396 4.24982V11.8704H36.3176V0.520602L34.5402 0.520602L30.8893 6.22792L27.2384 0.520602L25.461 0.520602Z" fill="#111111"></path>
+                <path d="M43.0136 2.369L47.8815 2.369V0.520602L41.0921 0.520602V11.8704H47.9776V10.022H43.0136V6.97376L47.4972 6.97376V5.12537L43.0136 5.12537V2.369Z" fill="#111111"></path>
+                <path d="M57.8398 8.90323C57.8398 9.82743 56.847 10.2166 55.8862 10.2166C54.1889 10.2166 53.2281 8.51409 53.2281 8.51409L51.787 9.74636C51.787 9.74636 53.084 12.065 55.8862 12.065C57.9999 12.065 59.7933 10.9624 59.7933 8.90323C59.7933 6.84405 58.3682 6.06578 56.6548 5.41722C55.1176 4.83352 54.2369 4.52545 54.2369 3.5364C54.2369 2.77434 54.9895 2.17443 55.9503 2.17443C57.3434 2.17443 58.2721 3.45533 58.2721 3.45533L59.6012 2.12579C59.6012 2.12579 58.2881 0.326035 55.9503 0.326035C53.6925 0.326035 52.2834 1.93122 52.2834 3.5364C52.2834 5.64422 54.1408 6.5522 55.7901 7.1359C57.1192 7.60611 57.8398 7.9466 57.8398 8.90323Z" fill="#111111"></path>
+                <path d="M76.3132 10.249C74.1034 10.249 72.5822 8.38438 72.5822 6.19549C72.5822 4.00661 74.1034 2.142 76.3132 2.142C78.1546 2.142 79.1634 3.39048 79.1634 3.39048L80.4605 2.10957C80.4605 2.10957 79.0033 0.326035 76.3132 0.326035C73.0786 0.326035 70.6287 2.8392 70.6287 6.19549C70.6287 9.55179 73.0786 12.065 76.3132 12.065C79.1474 12.065 80.6206 10.1355 80.6206 10.1355L79.3396 8.85459C79.3396 8.85459 78.2827 10.249 76.3132 10.249Z" fill="#111111"></path>
+                <path d="M84.4922 11.8704H91.1855V10.022H86.4137V0.520602L84.4922 0.520602V11.8704Z" fill="#111111"></path>
+                <path d="M96.8219 2.369L101.69 2.369V0.520602L94.9004 0.520602V11.8704H101.786V10.022H96.8219V6.97376L101.305 6.97376V5.12537L96.8219 5.12537V2.369Z" fill="#111111"></path>
+                <path d="M104.955 11.8704H106.892L107.917 9.17887H112.657L113.682 11.8704H115.619L111.264 0.520602L109.31 0.520602L104.955 11.8704ZM110.287 2.96891L111.968 7.39533L108.606 7.39533L110.287 2.96891Z" fill="#111111"></path>
+                <path d="M119.298 11.8704H121.219V7.5899L122.1 7.5899L124.758 11.8704H127L124.198 7.46018C125.799 7.05484 126.696 5.75772 126.696 4.05525C126.696 1.97986 125.207 0.520602 122.981 0.520602L119.298 0.520602V11.8704ZM122.741 5.7415L121.219 5.7415V2.369L122.741 2.369C123.974 2.369 124.742 2.93649 124.742 4.05525C124.742 5.17401 123.974 5.7415 122.741 5.7415Z" fill="#111111"></path>
+                </svg>
+        </div>
+        <!-- For Mobile Phone -->
+        <div class="sm:hidden flex align-center justify-between">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path>
+                </svg>
+            <h5 class="ml-2">Menu</h5>
+        </div>
+        <!-- For large screen -->
+        <!-- Work links -->
+        <div class="hidden sm:flex gap-8 ">
+            <a class="transition-all ease-in-out duration-150 hover:border-b-2" href="./book">Books</a>
+            <a class="transition-all ease-in-out duration-150 hover:border-b-2" href="./article">Articles</a>
+            <a class="border-b-2" href="./index.html">Newsletter</a>
+            <a class="transition-all ease-in-out duration-150 hover:border-b-2" href="./quoute">Quotes</a>
+            <a class="transition-all ease-in-out duration-150 hover:border-b-2" href="./speak">Speaking</a>
+        </div>
+        <!-- about -->
+        <div class="hidden sm:block" >
+        <a class="font-bold transition-all ease-in-out duration-150 hover:border-b-2" href="./about">About</a>
+    </div>
+    </nav>
+   </header>
+   <main class="py-14">
+    <section class="flex flex-col big:flex-row items-center gap-12 mb-10">
+    <div class="basis-2/4 gap-10 flex flex-col justify-between flex-wrap">
+        <h1 class="text-center sm:text-left text-4xl font-bold tracking-wide">The 3-2-1 Newsletter</h1>
+        <i class="font-crimson text-lg">"The most wisdom per word of any newsletter on the web."</i>
+        <p class="leading-8 font-bricolage text-xl tracking-tight">The 3-2-1 Newsletter is one of the most popular newsletters in the world. Every Thursday, the latest issue is sent to over 2,000,000 people. Each message includes 3 short ideas from me, 2 quotes from others, and 1 question for you to ponder.</p>
+        <p class="font-bricolage text-xl">Enter your email and sign up for free right now.</p>
+    </div>
+    <div class="basis-2/5 flex flex-col justify-between gap-10 items-center bg-slate-100 p-16">
+        <h3 class="tracking-wide font-bold text-2xl active:border-none">Get the “3-2-1 Thursday” newsletter in your inbox</h3>
+        <div class="flex flex-col"> 
+            <input class="text-center outline-none py-4 w-[20rem] placeholder:text-center border-[1px] border-[#e2b94a]" placeholder="Your email address" type="email" name="newEmail" id="newEmail">
+            <button class="text-[#320101] bg-[#eec860] font-bold py-4 hover:bg-[#ecce7b] transition-all duration-300 ease-in-out" type="submit">Try it</button>
+        </div>
+        <p class="text-gray-700 font-crimson text-center text-lg">No spam. Just the highest quality ideas you’ll find on the web.</p>
+    </div>
+</section>
+<section class="w-full flex justify-center my-56">
+<svg width="48" height="41" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3.14884 1.57442C3.14884 2.44395 2.44395 3.14884 1.57442 3.14884C0.704892 3.14884 0 2.44395 0 1.57442C0 0.704892 0.704892 0 1.57442 0C2.44395 0 3.14884 0.704892 3.14884 1.57442Z" fill="#B8AE84"></path>
+    <path d="M25.1907 1.57442C25.1907 2.44395 24.4858 3.14884 23.6163 3.14884C22.7468 3.14884 22.0419 2.44395 22.0419 1.57442C22.0419 0.704892 22.7468 0 23.6163 0C24.4858 0 25.1907 0.704892 25.1907 1.57442Z" fill="#B8AE84"></path>
+    <path d="M47.2326 1.57442C47.2326 2.44395 46.5277 3.14884 45.6582 3.14884C44.7887 3.14884 44.0838 2.44395 44.0838 1.57442C44.0838 0.704892 44.7887 0 45.6582 0C46.5277 0 47.2326 0.704892 47.2326 1.57442Z" fill="#B8AE84"></path>
+    <path d="M14.1698 20.4675C14.1698 21.337 13.4649 22.0419 12.5954 22.0419C11.7258 22.0419 11.0209 21.337 11.0209 20.4675C11.0209 19.5979 11.7258 18.8931 12.5954 18.8931C13.4649 18.8931 14.1698 19.5979 14.1698 20.4675Z" fill="#B8AE84"></path>
+    <path d="M36.2117 20.4675C36.2117 21.337 35.5068 22.0419 34.6373 22.0419C33.7677 22.0419 33.0628 21.337 33.0628 20.4675C33.0628 19.5979 33.7677 18.8931 34.6373 18.8931C35.5068 18.8931 36.2117 19.5979 36.2117 20.4675Z" fill="#B8AE84"></path>
+    <path d="M25.1907 39.3605C25.1907 40.2301 24.4858 40.9349 23.6163 40.9349C22.7468 40.9349 22.0419 40.2301 22.0419 39.3605C22.0419 38.491 22.7468 37.7861 23.6163 37.7861C24.4858 37.7861 25.1907 38.491 25.1907 39.3605Z" fill="#B8AE84"></path>
+    </svg>
+</section>
+    <section class="mb-96">
+        <h2 class="font-extrabold text-center text-4xl tracking-wide leading-10">All NewsLetters</h2>
+        <p class="text-gray-600 text-center">Found Nothing</p>
+    </section>
+    <section class="flex flex-col big:flex-row items-center gap-12 mb-10">
+        <div class="basis-2/4 gap-10 flex flex-col justify-between flex-wrap">
+            <h1 class="text-center sm:text-left text-4xl font-bold tracking-wide">3-2-1 Thursday newsletter</h1>
+            <p class="leading-8 font-bricolage text-xl tracking-tight [word-spacing: 200px]">Every Thursday, I send out my “3-2-1” newsletter with 3 ideas from me, 2 quotes from others, and 1 question for you. Sign up with the form below to get a new edition in your inbox every week.</p>
+
+            <p class="leading-8 font-bricolage text-xl tracking-tight">The goal of each 3-2-1 email is to share the most wisdom per word of any newsletter on the web. While my long-form articles allow me to explore one idea in-depth, these emails will cover a wide range of useful ideas each week.</p>
+        </div>
+        <div class="basis-2/5 flex flex-col justify-between gap-10 items-center bg-slate-100 p-16">
+            <h3 class="tracking-wide font-bold text-2xl active:border-none">Get the “3-2-1 Thursday” newsletter in your inbox</h3>
+            <div class="flex flex-col"> 
+                <input class="text-center outline-none py-4 w-[20rem] placeholder:text-center border-[1px] border-[#e2b94a]" placeholder="Your email address" type="email" name="newEmail" id="newEmail">
+                <button class="text-[#320101] bg-[#eec860] font-bold py-4 hover:bg-[#ecce7b] transition-all duration-300 ease-in-out" type="submit">Try it</button>
+            </div>
+            <p class="text-gray-700 font-crimson text-center text-lg">No spam.  Just the highest quality ideas you’ll  find on the web.</p>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
